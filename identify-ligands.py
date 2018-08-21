@@ -27,6 +27,7 @@ zf.close()
 
 def hmdb_lookup(mid, xmlns='{http://www.hmdb.ca}'):
     '''Uses HMDB XML to extract InChI, InChIKey, and SMILES for a given metabolite ID'''
+    mid = mid.capitalize()
     smile = inchi = inchikey = None
     e = hmdbroot.find("./{}metabolite/[{}name='{}']".format(xmlns, xmlns, mid))
     if e is not None:
@@ -100,9 +101,9 @@ def getlists(excelrow):
         ids[i] = str(excelrow[i])
         ids[i] = split(r"; |/(?![\w:/\-]+\))", ids[i])
         # throw out invalid values
-        ids[i] = [ j for j in ids[i][j] if j not in invalid_mids and not j.isdigit() ]
+        ids[i] = [ j for j in ids[i] if j not in invalid_mids and not j.isdigit() ]
     # return lists of IDs
-    return ids['EcoCyc'], ids['HMDB']
+    return list(set(ids['EcoCyc'])), list(set(ids['HMDB']))
 
 def retrieve(mids, db, columns=['InChI', 'MetaboliteID', 'InChIKey', 'SMILES']):
     '''Retrieves InChI, InChIKey, and SMILES from a list of metabolite IDs via XML database lookup. Returns pandas.DataFrame'''
@@ -128,8 +129,8 @@ def getmatches(einfo, hinfo, columns=['InChI', 'InChIKey', 'hSMILES', 'eSMILES',
         d['hMetaboliteID'] = d.pop('MetaboliteID')
         d['hSMILES'] = d.pop('SMILES')
         # assign values from einfo
-        d['eMetaboliteID'] = einfo.loc[einfo['InChIKey']==key]['MetaboliteID'][0]
-        d['eSMILES'] = einfo.loc[einfo['InChIKey']==key]['SMILES'][0]
+        d['eMetaboliteID'] = einfo.loc[einfo['InChIKey']==key, 'MetaboliteID'].iloc[0]
+        d['eSMILES'] = einfo.loc[einfo['InChIKey']==key, 'SMILES'].iloc[0]
         # add values to columns
         df.iloc[i] = d
     return df
@@ -141,7 +142,8 @@ def joinvalues(x, sep='|'):
 
 def process_ogrow(ogrow):
     '''Removes EcoCyc and HMDB columns from original excel sheet row and returns remaining values as dict.'''
-    ogrow.drop(['EcoCyc', 'HMDB'], inplace=True)
+    ogrow = ogrow.copy() # deleteme?
+    ogrow = ogrow.drop(['EcoCyc', 'HMDB'])
     return ogrow.to_dict()
 
 def build_simplerow(ogrow, minfo, db):
@@ -197,7 +199,7 @@ if __name__ == '__main__':
     fdict = { 'nodata':[], 'simple':[], 'match':[], 'multimatch':[], 'ambiguous':[] }
 
     # load excel file
-    print('Loading raw file ({})'.format(args.excelfile))
+    print('Loading raw file {}'.format(args.excelfile))
     data = pd.ExcelFile(args.excelfile)
     tabs = data.sheet_names
 
@@ -208,7 +210,7 @@ if __name__ == '__main__':
             print('Skipping', sheetname)
             continue
         print('Processing', sheetname)
-        sheet = data.parse(sheetname=sheetname, skiprows=0)
+        sheet = data.parse(sheet_name=sheetname, skiprows=0)
 
         # drop 'Unnamed' columns and init dataframes to be saved in fdict before writing
         cols = [i for i in sheet.columns if i[:7]!='Unnamed']
@@ -224,8 +226,8 @@ if __name__ == '__main__':
             emids, hmids = getlists(row)
             
             # skip rows lacking valid entries
-            if len(emids)==0 and len(hmids)==0: 
-                print('\tSkipping row', i)
+            if len(emids)==0 and len(hmids)==0:
+                print('\tNo data row', i)
                 rowdict = process_ogrow(row)
                 nodata_df = nodata_df.append(rowdict, ignore_index=True)
                 continue
@@ -233,13 +235,19 @@ if __name__ == '__main__':
             # if only one database is empty, get info
             elif len(emids)==0 or len(hmids)==0:
                 # set id list and database name; then get info
-                ids, database = (hmids, hmdb if len(emids)==0 else emids, ecocyc)
+                ids, database = ([hmids, hmdb] if len(emids)==0 else [emids, ecocyc])
                 info = retrieve(ids, database)
-                # if only one valid value, store in simple.xlsx; else store in ambiguous.xlsx
-                if info.shape[0] == 1:
+                # if nothing found (unable to match by name), store in nodata.xlsx
+                if info.shape[0] == 0:
+                    print('\tNo data row', i)
+                    rowdict = process_ogrow(row)
+                    nodata_df = nodata_df.append(rowdict, ignore_index=True)
+                # if only one valid value, store in simple.xlsx
+                elif info.shape[0] == 1:
                     print('\tSimple row', i)
                     rowdict = build_simplerow(row, info, database)
                     simple_df = simple_df.append(rowdict, ignore_index=True)
+                # if multiple metabolites identified, store in ambiguous.xlsx
                 else:
                     print('\tAmbiguous row', i, '(single database)')
                     rowdict = build_ambiguousrow(row, info, database)
@@ -277,7 +285,7 @@ if __name__ == '__main__':
     # END PROCESS SHEETS
 
     # write files
-    print('Writing files ({})'.format(args.outdir))
+    print('Writing files to {}'.format(args.outdir))
     for name, tuplelist in fdict.items():
         fname = '{}/{}.xlsx'.format(args.outdir, name)
         print('\tWriting', fname)
