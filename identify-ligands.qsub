@@ -1,0 +1,42 @@
+#!/bin/bash -l
+
+# job name
+#$ -N process-PM-data
+
+# scc project
+#$ -P cnsbomic
+
+# time limit 6 hrs
+#$ -l h_rt=06:00:00
+
+# send email when done/failed
+#$ -M jturcino@bu.edu
+
+# name single output file for combined stderr and stdout 
+#$ -j yes
+#$ -o process-PM-data.qlog
+
+# add job info to top of outfile
+echo "=========================================================="
+echo "Start date : $(date)"
+echo "Job name : $JOB_NAME"
+echo "Job ID : $JOB_ID  $SGE_TASK_ID"
+
+# load/install requirements
+echo "Load requirements..."
+module load python3/3.6.4
+pip install --user --upgrade -r requirements.txt
+
+# run script
+echo "=========================================================="
+echo "Running script..."
+python3 identify-ligands.py
+
+# list files
+echo "=========================================================="
+echo "Checking generated files..."
+ls processed-data/
+
+# done
+echo "=========================================================="
+echo "Job completed. Exiting."
