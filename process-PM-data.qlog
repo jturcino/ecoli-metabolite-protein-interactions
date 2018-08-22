@@ -1,0 +1,2632 @@
+==========================================================
+Start date : Tue Aug 21 18:01:59 EDT 2018
+Job name : process-PM-data
+Job ID : 7801852  undefined
+Load requirements...
+Traceback (most recent call last):
+  File "/share/pkg/python/3.6.4/install/bin/pip", line 7, in <module>
+    from pip import main
+ImportError: cannot import name 'main'
+==========================================================
+Running script...
+Loading HMDB from hmdb_metabolites.zip
+Loading raw file raw-data/essential_2017Nov(July2018).xlsx
+Skipping Samplelist of essential
+Processing P1pos
+	Ambiguous row 1 (single database)
+	Multiple match row 5
+	Ambiguous row 8 (single database)
+	Ambiguous row 10 (single database)
+	Ambiguous row 12 (single database)
+	Simple row 13
+	No data row 18
+	Simple row 19
+	Ambiguous row 21 (single database)
+	Simple row 22
+	No data row 24
+	No data row 26
+	Simple row 27
+	No data row 28
+	No data row 29
+	Simple row 30
+	Simple row 31
+	Simple row 32
+	Multiple match row 35
+	No data row 36
+	Ambiguous row 37 (single database)
+	Simple row 39
+	No data row 40
+	No data row 41
+	No data row 42
+	No data row 43
+	No data row 44
+	No data row 49
+	No data row 52
+	No data row 55
+	No data row 56
+	No data row 57
+	No data row 58
+	Simple row 59
+	No data row 60
+	Simple row 61
+	No data row 62
+	No data row 63
+	No data row 64
+	No data row 65
+	No data row 67
+	Ambiguous row 68 (single database)
+	Simple row 69
+	Simple row 75
+	No data row 77
+	No data row 78
+	No data row 79
+	No data row 80
+	No data row 81
+	No data row 82
+	No data row 83
+	No data row 84
+	No data row 85
+	No data row 89
+	No data row 90
+	No data row 91
+	No data row 92
+	No data row 93
+	No data row 94
+	No data row 95
+	Ambiguous row 98 (single database)
+	No data row 103
+	No data row 104
+	No data row 105
+	Simple row 107
+	No data row 108
+	No data row 109
+	No data row 112
+	No data row 113
+	No data row 114
+	No data row 115
+	No data row 116
+	No data row 117
+	No data row 118
+	No data row 119
+	No data row 120
+	No data row 121
+	No data row 123
+	No data row 124
+	No data row 125
+	No data row 126
+	Ambiguous row 130 (single database)
+	No data row 131
+	Ambiguous row 134 (single database)
+	Simple row 135
+	Ambiguous row 136 (single database)
+	Simple row 138
+	Single match row 139
+	No data row 143
+	Ambiguous row 144 (single database)
+	Simple row 150
+	No data row 152
+	No data row 153
+	No data row 154
+	No data row 155
+	Single match row 156
+	Simple row 157
+	No data row 158
+	No data row 159
+	No data row 160
+	Simple row 161
+	No data row 163
+	No data row 165
+	No data row 166
+	No data row 167
+	No data row 168
+	No data row 169
+	No data row 170
+	No data row 171
+	No data row 172
+	Simple row 174
+	Simple row 175
+	No data row 177
+	No data row 179
+	Simple row 180
+	No data row 181
+	Simple row 182
+	No data row 183
+	Ambiguous row 184 (single database)
+	No data row 185
+	No data row 186
+	No data row 187
+	No data row 188
+	No data row 189
+	No data row 190
+	Simple row 191
+	No data row 192
+	No data row 193
+	No data row 194
+	Simple row 195
+	No data row 196
+Appending P1pos dataframes
+Processing p1neg
+	No data row 2
+	Simple row 3
+	Simple row 5
+	Ambiguous row 6 (single database)
+	Simple row 7
+	No data row 8
+	No data row 9
+	Simple row 11
+	No data row 12
+	No data row 13
+	Simple row 14
+	Simple row 15
+	No data row 16
+	No data row 17
+	No data row 18
+	Ambiguous row 19 (single database)
+	No data row 20
+	No data row 21
+	Simple row 23
+	No data row 24
+	Ambiguous row 25 (single database)
+	Ambiguous row 26 (single database)
+	Ambiguous row 27 (single database)
+	Ambiguous row 28 (single database)
+	No data row 29
+	Simple row 30
+	No data row 31
+	Simple row 32
+	No data row 33
+	Simple row 35
+	No data row 36
+	No data row 38
+	No data row 39
+	No data row 40
+	No data row 41
+	No data row 45
+	No data row 46
+	No data row 48
+	No data row 49
+	No data row 50
+	Simple row 51
+	Simple row 52
+	No data row 53
+	No data row 54
+	No data row 55
+	No data row 56
+	No data row 57
+	Simple row 58
+	No data row 59
+	No data row 60
+	No data row 61
+	No data row 62
+	No data row 63
+	No data row 64
+	No data row 65
+	No data row 66
+	No data row 67
+	No data row 68
+	No data row 70
+	No data row 72
+	No data row 73
+	No data row 74
+	No data row 75
+	No data row 76
+	No data row 77
+	No data row 78
+	No data row 79
+	No data row 80
+	No data row 81
+	No data row 82
+	No data row 83
+	Simple row 84
+	No data row 85
+	No data row 86
+	No data row 87
+	No data row 88
+	No data row 89
+	No data row 90
+	No data row 91
+	No data row 92
+	No data row 93
+	No data row 94
+	No data row 95
+	No data row 96
+	No data row 97
+	No data row 98
+	No data row 99
+	No data row 100
+	No data row 101
+	No data row 102
+	No data row 103
+	No data row 104
+	No data row 105
+	No data row 106
+	No data row 107
+	No data row 108
+	No data row 109
+	No data row 110
+	No data row 111
+	No data row 112
+	No data row 113
+	No data row 114
+	No data row 115
+	No data row 116
+	No data row 117
+	No data row 118
+	No data row 119
+	No data row 120
+	No data row 121
+	No data row 122
+	No data row 123
+	No data row 124
+	No data row 125
+	No data row 129
+	Ambiguous row 131 (single database)
+	No data row 132
+	No data row 133
+	No data row 134
+	No data row 135
+	No data row 136
+	No data row 137
+	No data row 138
+	Simple row 139
+	No data row 140
+	No data row 141
+	No data row 142
+	No data row 143
+	No data row 144
+	No data row 145
+	No data row 148
+	No data row 149
+	Simple row 150
+	No data row 151
+	No data row 152
+	No data row 154
+	No data row 155
+	Ambiguous row 156 (single database)
+	No data row 157
+	Ambiguous row 158 (single database)
+	Ambiguous row 160 (single database)
+	No data row 161
+	No data row 162
+	Ambiguous row 163 (single database)
+	Simple row 164
+	No data row 165
+	No data row 166
+	No data row 167
+	No data row 168
+	No data row 171
+	Simple row 172
+	No data row 173
+	Simple row 174
+	No data row 175
+	No data row 176
+	No data row 177
+	No data row 178
+	No data row 179
+	No data row 180
+	No data row 181
+	No data row 182
+	No data row 183
+	No data row 184
+	No data row 185
+	No data row 186
+	No data row 187
+	Simple row 188
+	No data row 189
+	No data row 190
+	No data row 191
+	No data row 192
+	No data row 193
+	No data row 194
+	No data row 195
+	No data row 197
+	No data row 198
+	No data row 200
+	No data row 201
+	No data row 202
+	No data row 204
+	Multiple match row 205
+	Multiple match row 206
+	Ambiguous row 207 (single database)
+	Multiple match row 208
+	No data row 209
+	Single match row 210
+	Single match row 211
+	Ambiguous row 213 (single database)
+	No data row 214
+	No data row 216
+	Ambiguous row 218 (single database)
+	No data row 220
+	No data row 222
+	No data row 223
+	No data row 224
+	Ambiguous row 225 (single database)
+	Ambiguous row 226 (single database)
+	Ambiguous row 228 (single database)
+	No data row 229
+	No data row 230
+	Ambiguous row 231 (single database)
+	No data row 233
+	No data row 234
+	No data row 236
+	Simple row 237
+	No data row 238
+	No data row 239
+	Simple row 240
+	No data row 241
+	No data row 242
+	No data row 243
+	No data row 244
+	No data row 246
+	No data row 247
+	No data row 248
+	No data row 249
+	No data row 250
+	Simple row 251
+	No data row 252
+	No data row 253
+	No data row 255
+	No data row 256
+	No data row 257
+	No data row 258
+	No data row 259
+	No data row 260
+	No data row 261
+	No data row 262
+	No data row 263
+	No data row 264
+	No data row 265
+	No data row 266
+	No data row 267
+	No data row 268
+Appending p1neg dataframes
+Processing P2neg
+	Single match row 1
+	Ambiguous row 6 (single database)
+	Ambiguous row 7 (single database)
+	No data row 8
+	No data row 9
+	No data row 10
+	No data row 13
+	Ambiguous row 14 (single database)
+	Simple row 16
+	No data row 17
+	Ambiguous row 20 (single database)
+	Single match row 21
+	Simple row 23
+	Ambiguous row 25 (single database)
+	No data row 26
+	No data row 27
+	Ambiguous row 30 (single database)
+	No data row 34
+	No data row 35
+	Ambiguous row 37 (single database)
+	Ambiguous row 38 (single database)
+	Simple row 39
+	No data row 41
+	No data row 42
+	Ambiguous row 44 (single database)
+	No data row 46
+	Ambiguous row 47 (single database)
+	No data row 51
+	No data row 53
+	Ambiguous row 54 (single database)
+	Simple row 55
+	Simple row 57
+	Simple row 59
+	Ambiguous row 60 (single database)
+	Ambiguous row 63 (single database)
+	Simple row 65
+	Simple row 66
+	Ambiguous row 67 (single database)
+	No data row 69
+	Simple row 70
+	Ambiguous row 71 (single database)
+	No data row 73
+	No data row 74
+	Ambiguous row 78 (single database)
+	No data row 79
+	No data row 80
+	No data row 81
+	Ambiguous row 83 (single database)
+	No data row 84
+	Ambiguous row 85 (single database)
+	Ambiguous row 86 (single database)
+	Ambiguous row 87 (single database)
+	Ambiguous row 89 (single database)
+	Simple row 90
+	Simple row 92
+	Simple row 93
+	Simple row 94
+	Simple row 95
+	No data row 98
+	No data row 102
+	No data row 104
+	No data row 105
+	No data row 106
+	No data row 108
+	No data row 109
+	No data row 111
+	No data row 112
+	No data row 114
+	Ambiguous row 119 (single database)
+	Simple row 120
+	No data row 121
+	No data row 122
+	No data row 124
+	Simple row 127
+	Ambiguous row 128 (single database)
+	No data row 129
+	No data row 130
+	Ambiguous row 131 (single database)
+	Simple row 132
+	No data row 133
+	Simple row 134
+	Ambiguous row 135 (single database)
+	Ambiguous row 137 (single database)
+	Ambiguous row 140 (single database)
+	No data row 142
+	Simple row 143
+	No data row 145
+	No data row 147
+	Ambiguous row 148 (single database)
+	No data row 149
+	No data row 150
+	Simple row 152
+	No data row 153
+	No data row 154
+	No data row 155
+	No data row 156
+	No data row 157
+	Ambiguous row 158 (single database)
+	Single match row 159
+	No data row 161
+	Simple row 162
+	Ambiguous row 163 (single database)
+	No data row 166
+	Ambiguous row 169 (single database)
+	Simple row 171
+	Simple row 173
+	Simple row 175
+	No data row 177
+	No data row 178
+	No data row 179
+	No data row 180
+	No data row 181
+Appending P2neg dataframes
+Processing P2pos
+	Single match row 1
+	No data row 2
+	No data row 3
+	No data row 4
+	Single match row 5
+	No data row 6
+	Simple row 7
+	Single match row 11
+	Single match row 12
+	Ambiguous row 13 (single database)
+	Multiple match row 14
+	Ambiguous row 15 (single database)
+	Ambiguous row 17 (single database)
+	Single match row 18
+	Ambiguous row 19 (single database)
+	No data row 20
+	No data row 21
+	No data row 22
+	Simple row 23
+	No data row 24
+	No data row 25
+	No data row 26
+	No data row 27
+	Ambiguous row 28 (single database)
+	No data row 29
+	No data row 30
+	Ambiguous row 33 (single database)
+	Simple row 34
+	No data row 39
+	Simple row 40
+	No data row 46
+	No data row 47
+	Simple row 48
+	Ambiguous row 49 (single database)
+	No data row 50
+	No data row 51
+	No data row 52
+	Ambiguous row 53 (single database)
+	No data row 54
+	No data row 55
+	No data row 58
+	No data row 59
+	No data row 60
+	No data row 61
+	No data row 62
+	No data row 63
+	No data row 64
+	Simple row 65
+	No data row 67
+	No data row 68
+	No data row 69
+	No data row 70
+	Simple row 73
+	No data row 74
+	No data row 75
+	No data row 76
+	No data row 77
+	No data row 78
+	No data row 79
+	No data row 80
+	No data row 81
+	No data row 83
+	No data row 84
+	Simple row 85
+	No data row 86
+	No data row 87
+	No data row 88
+	No data row 89
+	Simple row 90
+	No data row 91
+	No data row 92
+	Simple row 93
+	No data row 94
+	No data row 95
+	No data row 96
+	No data row 97
+	No data row 98
+	No data row 99
+	Simple row 101
+	No data row 102
+	No data row 103
+	No data row 104
+	No data row 105
+	No data row 106
+	No data row 107
+	No data row 108
+	No data row 109
+	No data row 110
+	Simple row 111
+	Simple row 112
+	Simple row 113
+	No data row 114
+	No data row 115
+	No data row 116
+	No data row 117
+	No data row 118
+	Simple row 119
+	No data row 120
+	No data row 121
+	No data row 122
+	No data row 123
+	No data row 124
+	No data row 126
+	No data row 127
+	No data row 128
+	No data row 129
+	No data row 130
+	No data row 131
+	No data row 132
+	Simple row 133
+	No data row 134
+	No data row 135
+	Simple row 136
+	No data row 137
+	No data row 138
+	No data row 139
+	No data row 140
+	Simple row 141
+	Simple row 142
+	Simple row 143
+	No data row 145
+	No data row 146
+	No data row 147
+	Simple row 148
+	No data row 149
+	No data row 150
+	Ambiguous row 151 (single database)
+	No data row 152
+	No data row 153
+	No data row 154
+	No data row 155
+	Simple row 157
+	Ambiguous row 158 (single database)
+	No data row 160
+	No data row 161
+	Single match row 163
+	No data row 165
+	No data row 166
+	Simple row 167
+	No data row 169
+	No data row 170
+	No data row 171
+	No data row 172
+	No data row 173
+	No data row 174
+	No data row 175
+	No data row 176
+	No data row 177
+	No data row 178
+Appending P2pos dataframes
+Processing P3neg
+	No data row 1
+	No data row 2
+	No data row 3
+	No data row 4
+	No data row 5
+	Simple row 6
+	No data row 7
+	No data row 9
+	No data row 10
+	Ambiguous row 14 (single database)
+	No data row 15
+	No data row 16
+	No data row 19
+	Simple row 20
+	Simple row 21
+	No data row 24
+	No data row 26
+	Single match row 27
+	Ambiguous row 30 (single database)
+	No data row 31
+	Ambiguous row 34 (single database)
+	No data row 36
+	Simple row 37
+	Simple row 41
+	Simple row 49
+	No data row 50
+	Simple row 51
+	Ambiguous row 52 (single database)
+	No data row 53
+	No data row 54
+	No data row 55
+	No data row 56
+	No data row 57
+	No data row 58
+	Simple row 59
+	No data row 60
+	No data row 61
+	Simple row 63
+	No data row 65
+	Simple row 66
+	Simple row 67
+	No data row 68
+	No data row 70
+	No data row 71
+	No data row 72
+	No data row 73
+	Simple row 74
+	Single match row 81
+	No data row 82
+	No data row 83
+	No data row 84
+	No data row 85
+	Simple row 86
+	No data row 87
+	Simple row 89
+	No data row 91
+	No data row 93
+	Ambiguous row 94 (single database)
+	No data row 95
+	No data row 96
+	Simple row 98
+	Single match row 99
+	Ambiguous row 103 (single database)
+	No data row 104
+	No data row 105
+	Single match row 106
+	No data row 107
+	No data row 110
+	No data row 112
+	Single match row 113
+	Simple row 115
+	Ambiguous row 122 (single database)
+	No data row 124
+	Ambiguous row 127 (single database)
+	Simple row 131
+	Ambiguous row 134 (single database)
+	No data row 135
+	No data row 136
+	No data row 138
+	Ambiguous row 139 (single database)
+	Ambiguous row 140 (single database)
+	No data row 141
+	No data row 142
+	Simple row 143
+	Simple row 145
+	Ambiguous row 147 (single database)
+	No data row 148
+	No data row 149
+	No data row 151
+	No data row 152
+	No data row 153
+	No data row 156
+	No data row 157
+	Simple row 159
+	Simple row 160
+	Simple row 161
+	No data row 163
+	Ambiguous row 164 (single database)
+	No data row 167
+	No data row 168
+	No data row 170
+	Ambiguous row 173 (single database)
+	No data row 174
+	Simple row 175
+	Simple row 177
+	No data row 178
+	Ambiguous row 180 (single database)
+	No data row 181
+	No data row 182
+	No data row 183
+	Ambiguous row 184 (single database)
+	Ambiguous row 185 (single database)
+	Simple row 186
+	Simple row 191
+	No data row 192
+	Ambiguous row 194 (single database)
+	No data row 197
+	No data row 198
+	No data row 199
+	Simple row 200
+	No data row 202
+	No data row 203
+	No data row 204
+	No data row 205
+	Simple row 206
+	No data row 207
+	Simple row 208
+	Ambiguous row 209 (single database)
+	No data row 215
+	Simple row 216
+	Simple row 217
+	No data row 218
+	No data row 219
+	Simple row 222
+	No data row 223
+	No data row 224
+	No data row 225
+Appending P3neg dataframes
+Processing P3pos
+	No data row 1
+	No data row 2
+	No data row 3
+	No data row 4
+	No data row 5
+	No data row 6
+	No data row 7
+	No data row 8
+	No data row 9
+	No data row 10
+	No data row 11
+	No data row 12
+	Ambiguous row 13 (single database)
+	No data row 14
+	No data row 15
+	No data row 16
+	No data row 17
+	No data row 18
+	No data row 19
+	No data row 20
+	No data row 21
+	Simple row 22
+	No data row 23
+	No data row 24
+	No data row 25
+	Ambiguous row 27 (single database)
+	No data row 28
+	No data row 29
+	No data row 31
+	No data row 34
+	No data row 36
+	No data row 37
+	No data row 38
+	No data row 39
+	No data row 41
+	No data row 42
+	Simple row 43
+	No data row 44
+	No data row 45
+	No data row 46
+	No data row 47
+	No data row 48
+	No data row 49
+	No data row 50
+	No data row 51
+	No data row 52
+	No data row 53
+	No data row 54
+	No data row 55
+	No data row 56
+	No data row 57
+	No data row 58
+	No data row 59
+	No data row 61
+	Single match row 62
+	No data row 63
+	No data row 64
+	No data row 66
+	Ambiguous row 67 (single database)
+	No data row 68
+	No data row 69
+	No data row 71
+	No data row 72
+	No data row 73
+	No data row 74
+	No data row 76
+	No data row 77
+	No data row 80
+	No data row 81
+	No data row 82
+	No data row 83
+	Simple row 84
+	No data row 85
+	Simple row 86
+	Ambiguous row 87 (single database)
+	No data row 88
+	No data row 89
+	No data row 90
+	Ambiguous row 91 (single database)
+	No data row 92
+	Simple row 94
+	No data row 96
+	Ambiguous row 97 (single database)
+	No data row 98
+	No data row 100
+	Simple row 111
+	Simple row 112
+	Simple row 113
+	Simple row 114
+	No data row 115
+	Simple row 116
+	Ambiguous row 117 (single database)
+	Simple row 119
+	No data row 120
+	No data row 121
+	No data row 122
+	Single match row 123
+	Single match row 124
+	Multiple match row 125
+	Simple row 126
+	No data row 130
+	No data row 131
+	No data row 132
+	No data row 133
+	Ambiguous row 134 (single database)
+	No data row 135
+	Ambiguous row 136 (single database)
+	No data row 137
+	No data row 138
+	No data row 139
+	No data row 140
+	No data row 141
+	No data row 142
+	No data row 143
+	No data row 144
+	No data row 145
+	No data row 146
+	No data row 148
+	No data row 149
+	No data row 150
+	No data row 151
+	Ambiguous row 154 (single database)
+	No data row 157
+	Ambiguous row 158 (single database)
+	No data row 159
+	No data row 160
+	Single match row 162
+	No data row 163
+	No data row 169
+	No data row 170
+	No data row 171
+	Ambiguous row 173 (single database)
+	No data row 175
+	No data row 179
+	No data row 180
+	No data row 181
+	No data row 182
+	Ambiguous row 183 (single database)
+	No data row 185
+	No data row 187
+	Ambiguous row 190 (single database)
+Appending P3pos dataframes
+Processing P4pos
+	No data row 1
+	No data row 2
+	No data row 3
+	No data row 4
+	No data row 5
+	Ambiguous row 6 (single database)
+	Single match row 7
+	No data row 8
+	No data row 9
+	No data row 10
+	No data row 11
+	No data row 12
+	No data row 14
+	No data row 15
+	Simple row 16
+	No data row 17
+	No data row 18
+	No data row 19
+	No data row 20
+	Single match row 21
+	Ambiguous row 23 (single database)
+	No data row 24
+	No data row 28
+	No data row 29
+	No data row 30
+Appending P4pos dataframes
+Processing P4neg
+	No data row 1
+	Ambiguous row 3 (single database)
+	No data row 4
+	No data row 5
+	No data row 8
+	No data row 9
+	No data row 10
+	No data row 11
+	No data row 12
+	No data row 13
+	No data row 14
+	No data row 16
+	No data row 17
+	No data row 20
+	Simple row 21
+	No data row 22
+	No data row 24
+	No data row 25
+	No data row 26
+	No data row 27
+	No data row 29
+	No data row 30
+	No data row 31
+	No data row 32
+	Simple row 33
+Appending P4neg dataframes
+Processing P5neg
+	Ambiguous row 1 (single database)
+	Ambiguous row 3 (single database)
+	Simple row 4
+	No data row 6
+	No data row 7
+	No data row 8
+	No data row 9
+	No data row 10
+	No data row 11
+	No data row 12
+	No data row 15
+	No data row 19
+	No data row 20
+	Simple row 21
+	No data row 22
+	Simple row 23
+	No data row 24
+	No data row 25
+	No data row 26
+	Simple row 27
+	No data row 28
+	Simple row 29
+	Ambiguous row 31 (single database)
+	Simple row 32
+	No data row 33
+	No data row 34
+	No data row 36
+	No data row 37
+	No data row 38
+	No data row 39
+	Simple row 40
+	Ambiguous row 41 (single database)
+	No data row 42
+	No data row 43
+	Simple row 44
+	No data row 45
+	No data row 46
+	No data row 47
+	No data row 48
+	Simple row 49
+	No data row 52
+	Simple row 53
+	Ambiguous row 54 (single database)
+	Ambiguous row 55 (single database)
+	Simple row 56
+	Simple row 57
+	No data row 58
+	No data row 59
+	No data row 60
+	No data row 61
+	No data row 62
+	No data row 65
+	No data row 66
+	No data row 67
+	No data row 68
+	No data row 69
+	No data row 70
+	No data row 71
+	No data row 72
+	No data row 73
+	No data row 74
+	No data row 75
+	No data row 77
+	No data row 79
+	No data row 80
+	No data row 81
+	Ambiguous row 82 (single database)
+	No data row 83
+	No data row 84
+	No data row 85
+	Simple row 86
+Appending P5neg dataframes
+Processing P5pos
+	No data row 1
+	No data row 2
+	Simple row 3
+	Simple row 4
+	No data row 5
+	Ambiguous row 6 (single database)
+	Simple row 7
+	No data row 8
+	No data row 9
+	No data row 10
+	No data row 11
+	Ambiguous row 12 (single database)
+	No data row 13
+	Simple row 15
+	No data row 16
+	No data row 17
+	No data row 19
+	No data row 20
+	No data row 21
+	No data row 22
+	No data row 23
+	No data row 24
+	No data row 25
+	No data row 26
+	Simple row 27
+	Ambiguous row 28 (single database)
+	No data row 29
+	Simple row 30
+	No data row 31
+	Simple row 32
+	Ambiguous row 33 (single database)
+	No data row 36
+	No data row 37
+	No data row 38
+	Simple row 39
+	No data row 40
+	Simple row 42
+	No data row 44
+	No data row 45
+	No data row 46
+	No data row 47
+	No data row 48
+	No data row 49
+	No data row 50
+	No data row 51
+	No data row 52
+	No data row 54
+	No data row 56
+	No data row 57
+	No data row 58
+	No data row 59
+	No data row 60
+	No data row 61
+	No data row 62
+	No data row 63
+	No data row 64
+	No data row 65
+	No data row 66
+	No data row 67
+	No data row 68
+	No data row 70
+	Ambiguous row 71 (single database)
+	Simple row 72
+	No data row 73
+	No data row 74
+	No data row 75
+	No data row 76
+	No data row 79
+	Simple row 80
+	No data row 81
+	Single match row 82
+	Simple row 83
+	Ambiguous row 84 (single database)
+	No data row 85
+	No data row 86
+	No data row 87
+	Single match row 89
+	Single match row 93
+	No data row 95
+	Single match row 98
+	No data row 99
+	Single match row 100
+	No data row 102
+	No data row 103
+	No data row 104
+	No data row 106
+	No data row 107
+	No data row 108
+Appending P5pos dataframes
+Processing 2017_neg
+	No data row 3
+	No data row 4
+	No data row 7
+	No data row 8
+	Multiple match row 11
+	No data row 13
+	No data row 16
+	Single match row 17
+	Ambiguous row 18 (single database)
+	Ambiguous row 19 (single database)
+	No data row 20
+	Simple row 22
+	Ambiguous row 23 (single database)
+	Simple row 24
+	Simple row 25
+	Simple row 26
+	Ambiguous row 27 (single database)
+	No data row 28
+	Simple row 29
+	Ambiguous row 31 (single database)
+	Ambiguous row 32 (single database)
+	No data row 33
+	No data row 35
+	No data row 37
+	Ambiguous row 38 (single database)
+	No data row 41
+	No data row 42
+	No data row 44
+	Simple row 48
+	No data row 50
+	Ambiguous row 51 (single database)
+	Ambiguous row 54 (single database)
+	Multiple match row 56
+	No data row 57
+	No data row 58
+	No data row 63
+	Ambiguous row 65 (single database)
+	Simple row 66
+	Single match row 67
+	Ambiguous row 68 (single database)
+	Multiple match row 69
+	Ambiguous row 71 (single database)
+	Ambiguous row 72 (single database)
+	Ambiguous row 73 (single database)
+	Simple row 74
+	No data row 75
+	No data row 76
+	No data row 77
+	No data row 79
+	Simple row 81
+	Simple row 82
+	Ambiguous row 83 (single database)
+	No data row 84
+	Ambiguous row 85 (single database)
+	Simple row 86
+	No data row 87
+	No data row 88
+	No data row 89
+	No data row 90
+	No data row 91
+	Simple row 92
+	No data row 93
+	No data row 94
+	Ambiguous row 95 (single database)
+	No data row 96
+	No data row 99
+	No data row 102
+	No data row 105
+	No data row 106
+	No data row 107
+	Ambiguous row 108 (single database)
+	No data row 109
+Appending 2017_neg dataframes
+Processing 2017_pos
+	Simple row 2
+	Single match row 4
+	Simple row 8
+	Ambiguous row 11 (single database)
+	Single match row 12
+	No data row 14
+	No data row 15
+	Ambiguous row 16 (single database)
+	Ambiguous row 18 (single database)
+	Multiple match row 19
+	No data row 20
+	Simple row 21
+	No data row 22
+	No data row 23
+	No data row 24
+	No data row 25
+	Ambiguous row 31 (single database)
+	Simple row 32
+	No data row 34
+	No data row 35
+Appending 2017_pos dataframes
+Skipping TFs
+Processing TF4_pos
+	No data row 1
+	Simple row 2
+	Simple row 3
+	No data row 4
+	Simple row 5
+	No data row 6
+	No data row 7
+	No data row 8
+	No data row 9
+	Ambiguous row 10 (single database)
+	No data row 12
+	No data row 13
+	No data row 16
+	Ambiguous row 17 (single database)
+	Ambiguous row 18 (single database)
+	Ambiguous row 19 (single database)
+	No data row 20
+	No data row 21
+	Ambiguous row 22 (single database)
+	Ambiguous row 23 (single database)
+	No data row 24
+	Simple row 25
+	No data row 26
+	No data row 27
+	Simple row 28
+	Ambiguous row 29 (single database)
+	No data row 30
+	No data row 31
+	Ambiguous row 32 (single database)
+	No data row 33
+	No data row 34
+	No data row 35
+	No data row 37
+	Single match row 38
+	No data row 39
+	No data row 40
+	No data row 42
+	No data row 43
+	No data row 45
+	No data row 48
+	Simple row 49
+	No data row 50
+	No data row 51
+	No data row 52
+	Single match row 56
+	No data row 59
+	No data row 60
+	No data row 61
+	No data row 62
+	Simple row 65
+	No data row 67
+	Ambiguous row 68 (single database)
+	Ambiguous row 70 (single database)
+	No data row 72
+	No data row 73
+	No data row 74
+	No data row 76
+	Ambiguous row 84 (single database)
+	No data row 89
+	No data row 91
+	No data row 92
+	Ambiguous row 94 (single database)
+	No data row 96
+	Ambiguous row 99 (single database)
+	No data row 100
+	No data row 101
+	No data row 102
+	Simple row 103
+	Simple row 104
+	Single match row 105
+	Simple row 107
+	No data row 108
+	Ambiguous row 109 (single database)
+	Single match row 110
+	Single match row 111
+	No data row 112
+	Single match row 113
+	No data row 114
+	Simple row 115
+	No data row 116
+	No data row 117
+	No data row 118
+	Simple row 119
+	Simple row 121
+	No data row 123
+	Simple row 124
+	Simple row 125
+	Simple row 126
+	Simple row 127
+	Simple row 128
+	Simple row 129
+	Simple row 130
+	Simple row 131
+	No data row 132
+	Simple row 133
+	No data row 134
+	No data row 135
+	No data row 136
+	No data row 137
+	No data row 142
+	No data row 143
+	No data row 144
+	No data row 145
+	No data row 146
+	No data row 147
+	No data row 148
+	Ambiguous row 149 (single database)
+	Simple row 150
+	Ambiguous row 152 (single database)
+	Ambiguous row 153 (single database)
+	No data row 156
+	No data row 157
+	No data row 158
+	No data row 160
+	No data row 161
+	Simple row 162
+	No data row 163
+	Simple row 164
+	No data row 165
+	No data row 166
+	No data row 167
+	No data row 168
+	No data row 169
+	No data row 170
+	No data row 171
+	Simple row 172
+	Simple row 173
+	No data row 177
+	Simple row 179
+	Simple row 180
+	Simple row 181
+	No data row 182
+	Simple row 183
+	Simple row 185
+	Simple row 186
+	No data row 187
+	No data row 188
+	Ambiguous row 189 (single database)
+	No data row 190
+	Simple row 191
+	No data row 193
+	No data row 196
+	Simple row 198
+	No data row 199
+	Simple row 200
+	Simple row 201
+	No data row 202
+	No data row 203
+	No data row 204
+	Simple row 205
+	No data row 206
+	No data row 207
+	No data row 208
+	No data row 209
+	No data row 210
+	No data row 211
+	No data row 212
+	Ambiguous row 213 (single database)
+	No data row 214
+	No data row 215
+	Ambiguous row 216 (single database)
+	No data row 217
+	No data row 218
+	Simple row 219
+	No data row 220
+	No data row 223
+	No data row 224
+	No data row 225
+	No data row 226
+	Ambiguous row 227 (single database)
+	No data row 228
+	No data row 229
+	Simple row 230
+	Simple row 231
+	No data row 233
+	No data row 234
+	No data row 235
+	No data row 236
+	No data row 237
+	No data row 238
+	Simple row 239
+	No data row 240
+	No data row 242
+	No data row 243
+	No data row 244
+	No data row 245
+	No data row 246
+	No data row 247
+	Simple row 248
+	Simple row 249
+	Simple row 250
+	No data row 251
+	No data row 252
+	No data row 253
+	No data row 254
+	No data row 255
+	No data row 256
+	Ambiguous row 257 (single database)
+	No data row 258
+	No data row 259
+	No data row 260
+	Simple row 261
+	Simple row 262
+	No data row 263
+	No data row 264
+	No data row 265
+	No data row 266
+	No data row 268
+	No data row 269
+	No data row 270
+	Simple row 271
+	No data row 272
+	No data row 273
+	No data row 274
+	No data row 275
+	No data row 276
+	No data row 277
+	No data row 278
+	Simple row 279
+	Simple row 280
+	No data row 281
+	Simple row 282
+	No data row 283
+	Ambiguous row 284 (single database)
+	Simple row 285
+	No data row 287
+	No data row 288
+	No data row 289
+	No data row 290
+	No data row 291
+	Ambiguous row 292 (single database)
+	No data row 293
+	Simple row 294
+	No data row 295
+	No data row 296
+	No data row 297
+	No data row 298
+	No data row 299
+	Ambiguous row 300 (single database)
+	Ambiguous row 301 (single database)
+	No data row 302
+	No data row 303
+	No data row 304
+	No data row 305
+	No data row 306
+	No data row 307
+	No data row 308
+	No data row 309
+	Ambiguous row 310 (single database)
+	No data row 311
+	Ambiguous row 312 (single database)
+	Ambiguous row 313 (single database)
+	Ambiguous row 314 (single database)
+	No data row 315
+	No data row 316
+	No data row 317
+	Ambiguous row 318 (single database)
+	Ambiguous row 319 (single database)
+	Ambiguous row 320 (single database)
+	Simple row 321
+	No data row 322
+	No data row 323
+	Simple row 324
+	No data row 325
+	No data row 326
+	No data row 327
+	No data row 328
+	Simple row 329
+	No data row 330
+	No data row 331
+	Simple row 332
+	Simple row 333
+	No data row 334
+	No data row 335
+	No data row 336
+	No data row 337
+	No data row 338
+	No data row 339
+	No data row 340
+	No data row 341
+	No data row 342
+	No data row 343
+	No data row 344
+	No data row 345
+	No data row 346
+	No data row 347
+	No data row 348
+	No data row 349
+	No data row 350
+	No data row 351
+	No data row 352
+	No data row 353
+	Simple row 355
+	No data row 356
+	No data row 357
+	No data row 358
+	Simple row 360
+	Simple row 361
+	Simple row 362
+	Simple row 363
+	Simple row 364
+	No data row 365
+	No data row 366
+	No data row 367
+	No data row 368
+	No data row 369
+	No data row 370
+	No data row 371
+	No data row 372
+	No data row 373
+	No data row 374
+	No data row 375
+	No data row 376
+	No data row 377
+	No data row 378
+	No data row 379
+	No data row 380
+	No data row 381
+	No data row 382
+	No data row 383
+	No data row 384
+	No data row 385
+	No data row 386
+	No data row 387
+	No data row 388
+	No data row 389
+	No data row 390
+	No data row 391
+	No data row 392
+	No data row 393
+	No data row 394
+	No data row 395
+	No data row 396
+	No data row 397
+	No data row 398
+	No data row 399
+	No data row 400
+	No data row 401
+	No data row 402
+	No data row 403
+	No data row 405
+	No data row 406
+	No data row 407
+	No data row 408
+	No data row 409
+	No data row 414
+	No data row 415
+	No data row 416
+	No data row 417
+	No data row 418
+	No data row 419
+	No data row 420
+	Ambiguous row 421 (single database)
+	Ambiguous row 422 (single database)
+	Ambiguous row 423 (single database)
+	No data row 424
+	No data row 425
+	No data row 426
+	Simple row 427
+	No data row 428
+	No data row 429
+	No data row 432
+	No data row 433
+	No data row 434
+	Simple row 435
+	Simple row 436
+	Simple row 437
+	Simple row 438
+	Simple row 439
+	Simple row 440
+	No data row 441
+	No data row 442
+	No data row 443
+	Simple row 444
+	Simple row 445
+	Simple row 446
+	No data row 447
+	Ambiguous row 448 (single database)
+	Simple row 449
+	Simple row 450
+	No data row 451
+	Simple row 452
+	Simple row 453
+	No data row 454
+	No data row 455
+	No data row 456
+	No data row 457
+	No data row 458
+	No data row 460
+	No data row 461
+	No data row 463
+	No data row 464
+	No data row 465
+	No data row 466
+	No data row 469
+	No data row 470
+	No data row 471
+	No data row 472
+	No data row 473
+	No data row 474
+	No data row 475
+	No data row 476
+	No data row 477
+	No data row 478
+	No data row 480
+	No data row 481
+	No data row 482
+	No data row 484
+	No data row 485
+	Ambiguous row 486 (single database)
+	Ambiguous row 487 (single database)
+	Ambiguous row 488 (single database)
+	No data row 489
+	Ambiguous row 492 (single database)
+	No data row 493
+	Single match row 498
+	Single match row 499
+	No data row 502
+	No data row 503
+	No data row 504
+	No data row 508
+	No data row 511
+	Simple row 512
+	No data row 513
+	Simple row 515
+	Ambiguous row 520 (single database)
+	No data row 523
+	Ambiguous row 526 (single database)
+	Ambiguous row 527 (single database)
+	No data row 528
+	No data row 530
+	Ambiguous row 537 (single database)
+	Ambiguous row 538 (single database)
+	Simple row 540
+	Simple row 541
+	No data row 542
+	No data row 543
+	No data row 544
+	No data row 545
+	No data row 546
+	No data row 547
+	No data row 548
+	Simple row 549
+	Simple row 550
+	Ambiguous row 551 (single database)
+	Simple row 552
+	No data row 554
+	No data row 555
+	No data row 556
+	Ambiguous row 557 (single database)
+	Ambiguous row 558 (single database)
+	Ambiguous row 559 (single database)
+	Ambiguous row 560 (single database)
+	Ambiguous row 561 (single database)
+	Ambiguous row 562 (single database)
+	No data row 563
+	No data row 564
+	No data row 565
+	No data row 566
+	No data row 567
+	No data row 568
+	No data row 569
+	No data row 570
+	No data row 571
+	No data row 572
+	Simple row 573
+	No data row 574
+	No data row 575
+	Single match row 576
+	Ambiguous row 577 (single database)
+	Ambiguous row 578 (single database)
+	No data row 579
+	No data row 580
+	No data row 581
+	No data row 582
+	Ambiguous row 583 (single database)
+	No data row 584
+	No data row 585
+	No data row 586
+	No data row 587
+	No data row 588
+	Simple row 589
+	No data row 592
+	No data row 593
+	Ambiguous row 594 (single database)
+	Ambiguous row 595 (single database)
+	No data row 596
+	No data row 597
+	No data row 598
+	Ambiguous row 599 (single database)
+	No data row 600
+	No data row 601
+	No data row 603
+	No data row 605
+	No data row 606
+	No data row 611
+	No data row 612
+	No data row 613
+	No data row 614
+	No data row 615
+	No data row 616
+	Simple row 617
+	Ambiguous row 618 (single database)
+	Single match row 619
+	No data row 620
+	Multiple match row 621
+	No data row 623
+	Simple row 625
+	No data row 626
+	No data row 627
+	No data row 628
+	No data row 629
+	Simple row 630
+	No data row 631
+	No data row 632
+	No data row 633
+	No data row 634
+	Ambiguous row 636 (single database)
+	No data row 637
+	No data row 638
+	No data row 639
+	No data row 640
+	Ambiguous row 641 (single database)
+	No data row 642
+	No data row 643
+	No data row 644
+	Ambiguous row 645 (single database)
+	No data row 646
+	Simple row 647
+	No data row 648
+	No data row 649
+	No data row 650
+	Simple row 651
+	Ambiguous row 652 (single database)
+	Ambiguous row 653 (single database)
+	No data row 654
+	Simple row 655
+	No data row 656
+	Ambiguous row 657 (single database)
+	Single match row 658
+	No data row 659
+	No data row 660
+	Simple row 661
+	No data row 662
+	No data row 663
+	No data row 665
+	No data row 666
+	No data row 667
+	No data row 668
+	Simple row 669
+	No data row 670
+	No data row 671
+	No data row 672
+	No data row 673
+	Simple row 674
+	No data row 675
+	No data row 679
+	No data row 682
+	Ambiguous row 683 (single database)
+	No data row 684
+	Ambiguous row 686 (single database)
+	Ambiguous row 687 (single database)
+	Ambiguous row 688 (single database)
+	No data row 689
+	No data row 691
+	Single match row 692
+	No data row 693
+	No data row 694
+	No data row 695
+	Single match row 696
+	Ambiguous row 697 (single database)
+	Simple row 698
+	No data row 699
+	No data row 700
+	No data row 702
+	No data row 704
+	Simple row 705
+	Simple row 706
+	No data row 707
+	No data row 708
+	No data row 709
+	Simple row 710
+	No data row 712
+	Ambiguous row 713 (single database)
+	Simple row 714
+	No data row 715
+	Simple row 716
+	Simple row 717
+	No data row 719
+	No data row 720
+	No data row 721
+	Simple row 722
+	Simple row 723
+	No data row 724
+	No data row 725
+	No data row 726
+	No data row 727
+	No data row 729
+	No data row 730
+	No data row 731
+	Simple row 732
+	No data row 733
+	No data row 734
+	No data row 735
+	No data row 736
+	No data row 738
+	Multiple match row 739
+	No data row 740
+	No data row 741
+	No data row 742
+	No data row 743
+	No data row 744
+	No data row 745
+	No data row 746
+	No data row 747
+	No data row 748
+	Simple row 749
+	No data row 750
+	No data row 751
+	No data row 752
+	Simple row 755
+	No data row 756
+	No data row 757
+	No data row 758
+	Simple row 759
+	No data row 760
+	Simple row 761
+	No data row 762
+	No data row 763
+	No data row 764
+	No data row 765
+	No data row 766
+	No data row 767
+	No data row 768
+	No data row 769
+	No data row 770
+	No data row 771
+	No data row 772
+	No data row 773
+	No data row 774
+	No data row 775
+	No data row 776
+	No data row 777
+	No data row 778
+	No data row 779
+	No data row 780
+	No data row 781
+	No data row 782
+	No data row 783
+	No data row 784
+	No data row 785
+	No data row 786
+	No data row 787
+	No data row 788
+	No data row 789
+	No data row 790
+	Simple row 791
+	No data row 792
+	No data row 794
+	Simple row 795
+	No data row 796
+	No data row 797
+	No data row 798
+	No data row 799
+	No data row 800
+	Simple row 801
+	No data row 802
+	Ambiguous row 803 (single database)
+	No data row 804
+	No data row 805
+	No data row 806
+	No data row 807
+	No data row 808
+	Simple row 809
+	No data row 810
+	No data row 811
+	Simple row 812
+	No data row 813
+	No data row 814
+	No data row 815
+	No data row 816
+	No data row 817
+	No data row 818
+	No data row 819
+	No data row 820
+	No data row 821
+	Ambiguous row 822 (single database)
+	Simple row 825
+	No data row 826
+	No data row 827
+	No data row 828
+	Simple row 829
+	No data row 830
+	No data row 831
+	No data row 833
+	No data row 834
+	No data row 836
+	No data row 837
+	No data row 838
+	No data row 839
+	No data row 840
+	No data row 841
+	No data row 842
+	No data row 843
+	Simple row 844
+	Simple row 845
+	Ambiguous row 846 (single database)
+	No data row 847
+	Simple row 848
+	No data row 849
+	Ambiguous row 850 (single database)
+	No data row 851
+	No data row 852
+	No data row 853
+	No data row 854
+	No data row 855
+	Ambiguous row 856 (single database)
+	Ambiguous row 857 (single database)
+	Ambiguous row 858 (single database)
+	Ambiguous row 859 (single database)
+	No data row 860
+	No data row 861
+	No data row 862
+	No data row 863
+	No data row 864
+	Simple row 865
+	No data row 866
+	Simple row 867
+	No data row 868
+	Ambiguous row 869 (single database)
+	Ambiguous row 870 (single database)
+	No data row 872
+	No data row 875
+	No data row 876
+	Ambiguous row 877 (single database)
+	No data row 878
+	Simple row 879
+	No data row 881
+	No data row 882
+	Simple row 883
+	No data row 884
+	Simple row 885
+	Ambiguous row 886 (single database)
+	No data row 887
+	No data row 888
+	Ambiguous row 889 (single database)
+	No data row 890
+	No data row 893
+	No data row 895
+	Simple row 896
+	No data row 898
+	No data row 899
+	No data row 900
+	Simple row 901
+	Simple row 902
+	Simple row 904
+	Simple row 905
+	No data row 906
+	No data row 907
+	No data row 909
+	No data row 910
+	No data row 911
+	Ambiguous row 912 (single database)
+	Ambiguous row 913 (single database)
+	No data row 914
+	No data row 917
+	No data row 923
+	No data row 925
+	No data row 926
+	No data row 927
+	No data row 929
+	No data row 930
+	No data row 931
+	Ambiguous row 932 (single database)
+	Simple row 937
+	No data row 938
+	No data row 939
+	No data row 940
+	Ambiguous row 941 (single database)
+	No data row 942
+	No data row 943
+	No data row 944
+	Simple row 945
+	No data row 947
+	No data row 948
+	Simple row 951
+	No data row 952
+	Ambiguous row 953 (single database)
+	Simple row 954
+	Ambiguous row 955 (single database)
+	No data row 956
+	Ambiguous row 957 (single database)
+	No data row 958
+	No data row 959
+	No data row 960
+	No data row 962
+	No data row 963
+	No data row 965
+	Ambiguous row 967 (single database)
+	Ambiguous row 968 (single database)
+	Ambiguous row 969 (single database)
+	No data row 970
+	Ambiguous row 971 (single database)
+	Ambiguous row 972 (single database)
+	No data row 973
+	No data row 976
+	No data row 978
+	No data row 979
+	No data row 980
+	No data row 981
+	Ambiguous row 982 (single database)
+	No data row 983
+	No data row 984
+	No data row 986
+	No data row 987
+	No data row 989
+	No data row 990
+	No data row 991
+	Ambiguous row 992 (single database)
+	No data row 993
+	No data row 994
+	No data row 995
+	No data row 996
+	Ambiguous row 997 (single database)
+	No data row 1003
+	No data row 1004
+	No data row 1005
+	No data row 1006
+	No data row 1007
+	Ambiguous row 1008 (single database)
+	No data row 1009
+	No data row 1010
+	No data row 1011
+	No data row 1012
+	No data row 1014
+	No data row 1015
+	No data row 1016
+	No data row 1017
+	No data row 1018
+	Simple row 1019
+	No data row 1020
+	No data row 1021
+	No data row 1022
+	No data row 1023
+	No data row 1024
+	Ambiguous row 1025 (single database)
+	Ambiguous row 1026 (single database)
+	Ambiguous row 1027 (single database)
+	Simple row 1028
+	Ambiguous row 1030 (single database)
+	No data row 1031
+	No data row 1032
+	No data row 1033
+	Simple row 1034
+	Simple row 1035
+	Simple row 1036
+	No data row 1037
+	No data row 1040
+	Simple row 1042
+	No data row 1043
+	No data row 1044
+	No data row 1045
+	Simple row 1046
+	Simple row 1047
+	No data row 1048
+	No data row 1049
+	No data row 1050
+	No data row 1052
+	No data row 1053
+	No data row 1055
+	No data row 1056
+	No data row 1057
+	Ambiguous row 1058 (single database)
+	Ambiguous row 1059 (single database)
+	Ambiguous row 1060 (single database)
+	Ambiguous row 1061 (single database)
+	Ambiguous row 1062 (single database)
+	Ambiguous row 1063 (single database)
+	No data row 1064
+	No data row 1065
+	No data row 1066
+	No data row 1067
+	No data row 1068
+	No data row 1069
+	No data row 1072
+	No data row 1073
+	No data row 1074
+	No data row 1075
+	Simple row 1077
+	No data row 1079
+	No data row 1080
+	No data row 1081
+	No data row 1083
+	No data row 1084
+	No data row 1085
+	No data row 1086
+	No data row 1087
+	No data row 1088
+	Ambiguous row 1089 (single database)
+	Ambiguous row 1090 (single database)
+	No data row 1091
+	No data row 1092
+	No data row 1093
+	No data row 1094
+	No data row 1095
+	No data row 1096
+	Simple row 1098
+	Simple row 1099
+	No data row 1100
+	No data row 1101
+	No data row 1102
+	No data row 1103
+	Ambiguous row 1104 (single database)
+	No data row 1105
+	No data row 1107
+	No data row 1108
+	Ambiguous row 1110 (single database)
+	Ambiguous row 1111 (single database)
+	No data row 1112
+	No data row 1113
+	No data row 1114
+	No data row 1115
+	No data row 1116
+	Simple row 1117
+	No data row 1118
+	No data row 1119
+	No data row 1120
+	No data row 1121
+	No data row 1122
+	No data row 1123
+	No data row 1127
+	No data row 1128
+	No data row 1129
+	No data row 1130
+	Simple row 1131
+	No data row 1132
+	No data row 1133
+	No data row 1134
+	No data row 1135
+	No data row 1136
+	No data row 1137
+	No data row 1138
+	No data row 1139
+	No data row 1140
+	No data row 1141
+	No data row 1142
+	No data row 1143
+	Simple row 1146
+	No data row 1147
+	No data row 1148
+	No data row 1149
+	No data row 1150
+	No data row 1151
+	No data row 1152
+	No data row 1153
+	No data row 1154
+	No data row 1155
+	No data row 1156
+	Ambiguous row 1157 (single database)
+	Ambiguous row 1158 (single database)
+	Ambiguous row 1159 (single database)
+	No data row 1160
+	No data row 1161
+	No data row 1162
+	Simple row 1163
+	Simple row 1164
+	No data row 1165
+	No data row 1166
+	No data row 1167
+	No data row 1168
+	No data row 1169
+	No data row 1170
+	No data row 1171
+	No data row 1172
+	Ambiguous row 1173 (single database)
+	No data row 1174
+	No data row 1175
+	No data row 1177
+	No data row 1178
+	No data row 1179
+	No data row 1180
+	No data row 1181
+	No data row 1183
+	No data row 1184
+	No data row 1185
+	No data row 1186
+	No data row 1187
+	No data row 1188
+	No data row 1189
+	No data row 1190
+	No data row 1191
+	Simple row 1193
+	No data row 1194
+	No data row 1195
+	No data row 1196
+	No data row 1197
+	No data row 1198
+	No data row 1199
+	No data row 1200
+	No data row 1201
+	No data row 1202
+	No data row 1203
+	No data row 1204
+	No data row 1205
+	Simple row 1206
+	Simple row 1207
+	Simple row 1208
+	No data row 1209
+	No data row 1210
+	Simple row 1211
+	No data row 1212
+	Simple row 1213
+	Simple row 1214
+	Simple row 1215
+	No data row 1216
+	No data row 1217
+	No data row 1218
+	No data row 1219
+	Simple row 1220
+	No data row 1221
+	No data row 1222
+	Ambiguous row 1223 (single database)
+	Ambiguous row 1224 (single database)
+	Ambiguous row 1225 (single database)
+	Ambiguous row 1226 (single database)
+	Ambiguous row 1227 (single database)
+	Ambiguous row 1228 (single database)
+	Simple row 1229
+	Ambiguous row 1230 (single database)
+	Ambiguous row 1231 (single database)
+	Ambiguous row 1232 (single database)
+	No data row 1233
+	No data row 1234
+	No data row 1235
+	No data row 1236
+	No data row 1237
+	No data row 1238
+	No data row 1239
+	No data row 1241
+	No data row 1242
+	No data row 1243
+	No data row 1244
+	No data row 1245
+	No data row 1246
+	No data row 1247
+	No data row 1248
+	No data row 1249
+	No data row 1250
+	No data row 1251
+	No data row 1252
+	No data row 1253
+	No data row 1254
+	No data row 1255
+	Simple row 1256
+	No data row 1257
+	No data row 1258
+	No data row 1259
+	No data row 1260
+	No data row 1261
+	Simple row 1262
+	Simple row 1263
+	Simple row 1264
+	Simple row 1265
+	Simple row 1266
+	Simple row 1267
+	Simple row 1268
+	Simple row 1269
+	No data row 1271
+	Ambiguous row 1272 (single database)
+	Ambiguous row 1273 (single database)
+	Simple row 1274
+	Ambiguous row 1275 (single database)
+	Simple row 1276
+	Simple row 1277
+	Simple row 1278
+	Simple row 1280
+	Simple row 1281
+	Simple row 1282
+	No data row 1285
+	No data row 1286
+	No data row 1287
+	No data row 1288
+	Simple row 1289
+	Simple row 1290
+	No data row 1291
+	No data row 1292
+	No data row 1293
+	No data row 1294
+	No data row 1295
+	No data row 1296
+	No data row 1297
+	Simple row 1298
+	Ambiguous row 1299 (single database)
+	Simple row 1300
+	No data row 1301
+	No data row 1302
+	No data row 1303
+	No data row 1304
+	No data row 1305
+	No data row 1306
+	No data row 1307
+	No data row 1308
+	No data row 1309
+	No data row 1310
+	No data row 1311
+	No data row 1312
+	No data row 1313
+	No data row 1314
+	No data row 1315
+	No data row 1316
+	Simple row 1317
+	Simple row 1318
+	Simple row 1319
+	Simple row 1320
+	No data row 1321
+	Simple row 1322
+	Simple row 1323
+	Ambiguous row 1324 (single database)
+	No data row 1325
+	No data row 1326
+	No data row 1327
+	No data row 1328
+	No data row 1331
+	No data row 1332
+	No data row 1333
+	No data row 1334
+	No data row 1335
+	No data row 1336
+	No data row 1337
+	No data row 1338
+	No data row 1339
+	No data row 1340
+	Ambiguous row 1341 (single database)
+	No data row 1342
+	No data row 1343
+	No data row 1344
+	No data row 1345
+	No data row 1346
+	No data row 1348
+	No data row 1349
+	Simple row 1351
+	No data row 1352
+	No data row 1353
+	No data row 1354
+	No data row 1355
+	No data row 1356
+	Ambiguous row 1357 (single database)
+	No data row 1358
+	No data row 1359
+	Ambiguous row 1361 (single database)
+	No data row 1362
+	No data row 1363
+	No data row 1364
+	No data row 1365
+	No data row 1366
+	No data row 1367
+	No data row 1368
+	No data row 1369
+	No data row 1370
+	No data row 1371
+	No data row 1372
+	No data row 1373
+	Ambiguous row 1374 (single database)
+	Simple row 1375
+	Simple row 1376
+	No data row 1377
+	No data row 1378
+	Simple row 1379
+	Simple row 1380
+	Simple row 1381
+	Simple row 1382
+	No data row 1383
+	No data row 1384
+	No data row 1385
+	No data row 1386
+	Ambiguous row 1387 (single database)
+	No data row 1388
+	No data row 1389
+	No data row 1390
+	No data row 1391
+	No data row 1392
+	No data row 1393
+	No data row 1394
+	No data row 1395
+	No data row 1396
+	No data row 1397
+	No data row 1398
+	No data row 1399
+	No data row 1400
+	No data row 1401
+	No data row 1402
+	No data row 1403
+	No data row 1404
+	No data row 1405
+	No data row 1406
+	Simple row 1407
+	Simple row 1408
+	Simple row 1409
+	No data row 1410
+	No data row 1411
+	No data row 1412
+	Simple row 1413
+	No data row 1414
+	No data row 1415
+	No data row 1416
+	No data row 1417
+	Simple row 1418
+	No data row 1419
+	No data row 1421
+	No data row 1422
+	No data row 1423
+	No data row 1424
+	No data row 1425
+	No data row 1426
+	No data row 1427
+	No data row 1428
+	No data row 1429
+	No data row 1430
+	No data row 1432
+	No data row 1434
+	No data row 1436
+	No data row 1438
+	No data row 1440
+	No data row 1441
+	No data row 1442
+	No data row 1443
+	No data row 1444
+	No data row 1445
+	Simple row 1446
+	No data row 1447
+	No data row 1449
+	No data row 1450
+	No data row 1451
+	Ambiguous row 1452 (single database)
+	No data row 1453
+	Simple row 1456
+	Ambiguous row 1459 (single database)
+	No data row 1460
+	No data row 1461
+	Simple row 1462
+	Simple row 1463
+	No data row 1464
+	No data row 1465
+	No data row 1466
+	No data row 1467
+	No data row 1468
+	Ambiguous row 1469 (single database)
+	Simple row 1470
+	No data row 1471
+	No data row 1472
+	No data row 1473
+	Ambiguous row 1474 (single database)
+	No data row 1475
+	Ambiguous row 1476 (single database)
+	No data row 1478
+	No data row 1479
+	No data row 1480
+	No data row 1481
+	No data row 1483
+	Simple row 1484
+	Simple row 1485
+	No data row 1486
+	No data row 1490
+	Simple row 1493
+	Ambiguous row 1494 (single database)
+	Simple row 1496
+	No data row 1498
+	No data row 1500
+	No data row 1503
+	No data row 1504
+	No data row 1505
+	Simple row 1506
+	No data row 1507
+	No data row 1508
+	No data row 1509
+	Simple row 1510
+	Simple row 1511
+	No data row 1512
+	No data row 1513
+	No data row 1514
+	No data row 1517
+	No data row 1521
+	No data row 1522
+	No data row 1523
+	No data row 1524
+	No data row 1525
+	No data row 1526
+	No data row 1527
+	No data row 1528
+	No data row 1529
+	No data row 1530
+	No data row 1531
+	No data row 1532
+	No data row 1533
+	No data row 1534
+	No data row 1535
+	No data row 1536
+	No data row 1537
+	No data row 1538
+	No data row 1539
+	No data row 1540
+	No data row 1541
+	No data row 1542
+	Simple row 1543
+	No data row 1544
+	No data row 1545
+	Simple row 1546
+	No data row 1548
+	No data row 1549
+	No data row 1550
+	No data row 1551
+	No data row 1552
+	No data row 1553
+	No data row 1554
+	Simple row 1555
+	No data row 1556
+	No data row 1557
+	No data row 1558
+	Ambiguous row 1559 (single database)
+	Ambiguous row 1560 (single database)
+	No data row 1561
+	No data row 1562
+	No data row 1563
+	No data row 1564
+	No data row 1565
+	Simple row 1566
+	Simple row 1567
+	Simple row 1568
+	No data row 1569
+	No data row 1570
+	No data row 1571
+	No data row 1572
+	No data row 1573
+	Ambiguous row 1574 (single database)
+	No data row 1575
+	No data row 1578
+	No data row 1579
+	No data row 1580
+	No data row 1581
+	Simple row 1583
+	No data row 1584
+	No data row 1585
+	No data row 1586
+	No data row 1588
+	Ambiguous row 1589 (single database)
+	No data row 1590
+	Simple row 1592
+	No data row 1597
+	Ambiguous row 1599 (single database)
+	Ambiguous row 1600 (single database)
+	No data row 1604
+	No data row 1605
+	No data row 1606
+	Ambiguous row 1607 (single database)
+	No data row 1608
+	No data row 1609
+	No data row 1610
+	No data row 1611
+	No data row 1612
+	Ambiguous row 1613 (single database)
+	Ambiguous row 1614 (single database)
+	No data row 1615
+	No data row 1616
+	No data row 1617
+	Simple row 1618
+	No data row 1619
+	No data row 1620
+	No data row 1622
+	No data row 1623
+	No data row 1624
+	No data row 1625
+	No data row 1626
+Appending TF4_pos dataframes
+Writing files to processed-data
+	Writing processed-data/nodata.xlsx
+	Writing processed-data/simple.xlsx
+	Writing processed-data/match.xlsx
+	Writing processed-data/multimatch.xlsx
+	Writing processed-data/ambiguous.xlsx
+==========================================================
+Checking generated files...
+ambiguous.xlsx
+match.xlsx
+multimatch.xlsx
+nodata.xlsx
+simple.xlsx
+==========================================================
+Job completed. Exiting.

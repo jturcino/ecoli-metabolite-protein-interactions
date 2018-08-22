@@ -13,7 +13,7 @@ import pandas as pd
 # global variables
 ecocyc = 0
 hmdb = 1
-invalid_mids = ['NA', 'multiple charge', 'neg', 'nan']
+invalid_mids = ['NA', 'multiple charge', 'neg', 'nan', 'ND']
 skipsheets = ['Samplelist of essential', 'TFs']
 
 # HMDB lookup done via XML
@@ -29,7 +29,7 @@ def hmdb_lookup(mid, xmlns='{http://www.hmdb.ca}'):
     '''Uses HMDB XML to extract InChI, InChIKey, and SMILES for a given metabolite ID'''
     mid = mid.capitalize()
     smile = inchi = inchikey = None
-    e = hmdbroot.find("./{}metabolite/[{}name='{}']".format(xmlns, xmlns, mid))
+    e = hmdbroot.find("./{}metabolite/[{}name=\"{}\"]".format(xmlns, xmlns, mid))
     if e is not None:
         smile = e[16].text
         inchi = e[17].text[6:] # stripping 'InChI=' from front
@@ -40,7 +40,7 @@ def hmdb_lookup(mid, xmlns='{http://www.hmdb.ca}'):
 def ecocyc_lookup(mid, org='ECOLI', url='https://websvc.biocyc.org/getxml?'):
     '''Uses requests.get and regex to extract InChI, InChIKey, and SMILES for a given metabolite ID'''
     # get info
-    url += '{}:{}'.format(org, mid)
+    url += "{}:{}".format(org, mid)
     resp = get(url)
     resp.raise_for_status()
     resp = resp.text
