@@ -148,12 +148,13 @@ def process_ogrow(ogrow):
 
 def build_simplerow(ogrow, minfo, db):
     '''Takes row from original excel sheet and returns row for simple.xlsx'''
+    assert db==ecocyc or db==hmdb, 'Invalid database ({})'.format(db)
     # remove EcoCyc and HMDB entries from row
     # then convert to dict
     d = process_ogrow(ogrow)
     # add columns and new values
     d.update(minfo.iloc[0].to_dict())
-    d['Database'] = db
+    d['Database'] = ('EcoCyc' if db==ecocyc else 'HMDB')
     return d
 
 def getdict_ambiguousinfo(ambig_df, db, sep='|'):
